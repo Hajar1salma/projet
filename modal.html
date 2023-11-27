@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.topnav{
+    border-bottom: #04AA6D solid 6px;
+    overflow: hidden;
+ 
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #333;
+  position: relative;
+  left: 60px;
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.retour{
+  color: blue;
+}
+.filiere{
+    width: 300px;
+    height: 30px;
+   
+
+}
+.select{
+    text-align: center;
+   
+
+}
+p{
+    border-bottom:rgb(165, 162, 162) solid 1px;
+}
+.n input{
+  position:relative;
+  left:70px ;
+  bottom: 40px;
+}
+.x{
+    width: 300px;
+    height:40px;
+}
+form {
+    position: relative;
+    bottom: 550px;
+    left: 800px;
+}
+nav{
+    padding-left: 40px;
+
+}
+
+
+</style>
+</head>
+<body>
+    
+<pre>Institut specialiser de tecknologie appliquer Ait Melloul</pre>
+
+<div class="topnav">
+  <a href="#Evaluatio">Evaluation</a>
+  <a class="active" href="#Avancement">Avancement</a>
+  <a href="#Changer EFP">Changer EFP</a>
+  <a href="#Mon compt">Mon compt</a>
+  <a href="#Déconexion">Deconexion</a>
+</div>
+<p class="ligne">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cahier de text / Retour</p>
+
+<div class="select">
+<label >filiere :</label>
+<select class="filiere" >
+<option selected>TS-Developpement Digitale (Diplomante) </option>
+</select>
+
+<label >Module :</label>
+<select class="filiere">
+<option selected>M104-Site Web statique</option>
+</select>
+
+<br>
+<br>
+</div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; NOUVELLE SEANCE</p><br>
+<nav>
+<div class="n">
+<label><b>ELTS de la competence<br>(objectifs)*<br>300 caracteres</b></label>
+<input   type="text"style="font-size:smaller; width: 200px; height: 100px;">
+</div>
+
+<label ><b> Date de la seance* :</b></label>
+<select class="x">
+<option selected>Choisisser</option>
+</select>
+<br><br><br>
+
+<label ><b>Heure demmarage*:</b></label>
+<select class="x">
+<option selected>08:00</option>
+</select>
+<br><br><br>
+<br>
+
+<div >
+    <label><b>Commentaires</b></label>
+    <input  type="text"style="font-size:smaller; width: 300px; height: 100px; position: relative; left: 60px;">
+    </div>
+<br><br>
+    <div>
+        <label><b>Type de seance</b></label>
+          <input id="cv" type="radio" name="hr">
+          <label for="cv">Cours</label>
+     
+          <input id="md" type="radio" name="hr">
+           <label for="md">CC</label>
+      
+          <input id="ms" type="radio" name="hr">
+          <label for="ms">EFM</label>
+      </div>
+      <br>
+ <button type="submit"style="background-color: #04AA6D;  height: 40px; width: 200px; position: relative ; left: 20px;" ><a href="continued.html" style="text-decoration: none;color: #000;"> Valider la seance </a></button>
+
+
+<form>
+<label > <b>Type de cours:</b></label>
+<select class="x">
+<option selected>Choisisser</option>
+</select>
+<br><br><br>
+<br><br><br>
+
+<label ><b> Eff absents:</b></label>
+<select class="x">
+<option selected>(0) stagiaires</option>
+</select>
+<br>
+<br>
+<label > <b>Heure fin*     :    </b></label>
+<select class="x">
+<option selected></option>
+</select>
+<br>
+<br>
+
+<label><b>List absents</b></label>
+    <input  type="text"style="font-size:smaller; width: 300px; height: 100px; position: relative; left: 60px;">
+
+
+</form>
+</nav>
+
+
+
+</body>
+</html>
